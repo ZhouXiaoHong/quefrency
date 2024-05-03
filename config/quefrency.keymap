@@ -26,21 +26,21 @@
 
         default_layer {
             bindings = <
-&kp ESC           &kp N1         &kp N2               &kp N3         &kp N4               &kp N5         &kp N6       &kp N7     &kp N8  &kp N9     &kp N0        &kp MINUS     &kp EQUAL             &kp BACKSLASH                 &kp GRAVE
-&kp TAB                   &kp Q                &kp W          &kp E                &kp R          &kp T               &kp Y      &kp U   &kp I      &kp O         &kp P         &kp LBKT              &kp RBKT       &kp BACKSPACE                     &bt BT_NXT
-&kp LEFT_CONTROL                 &kp A                &kp S          &kp D                &kp F          &kp G        &kp H      &kp J   &kp K      &kp L         &kp SEMI      &kp SQT               &kp RET                       &kp C_VOLUME_UP
-&kp LSHFT                        &kp Z                &kp X          &kp C                &kp V          &kp B        &kp N      &kp M   &kp COMMA  &kp DOT       &kp FSLH                 &kp RSHFT                 &kp UP         &kp C_VOLUME_DOWN
-&kp CAPS          &mo 2          &kp LEFT_ALT                        &kp LEFT_GUI                        &kp SPACE    &kp SPACE                     &bt BT_SEL 0  &bt BT_SEL 1  &trans                &kp LEFT                      &kp DOWN           &kp RIGHT
+&kp ESC           &kp N1               &kp N2           &kp N3         &kp N4         &kp N5         &kp N6       &kp N7     &kp N8  &kp N9     &kp N0    &kp MINUS  &kp EQUAL             &kp BACKSLASH                 &kp GRAVE
+&kp TAB                         &kp Q            &kp W          &kp E          &kp R          &kp T               &kp Y      &kp U   &kp I      &kp O     &kp P      &kp LBKT              &kp RBKT       &kp BACKSPACE                     &kp K_MUTE
+&kp LEFT_CONTROL                       &kp A            &kp S          &kp D          &kp F          &kp G        &kp H      &kp J   &kp K      &kp L     &kp SEMI   &kp SQT               &kp RET                       &kp C_VOLUME_UP
+&kp LSHFT                              &kp Z            &kp X          &kp C          &kp V          &kp B        &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH              &kp RSHFT                 &kp UP         &kp C_VOLUME_DOWN
+&kp CAPS          &kp LEFT_ALT         &kp LGUI                        &mo 1                         &kp SPACE    &kp SPACE                     &kp RGUI  &mo 1      &trans                &kp LEFT                      &kp DOWN           &kp RIGHT
             >;
         };
 
         med_layer {
             bindings = <
-&kp GRAVE  &kp F1          &kp F2            &kp F3            &kp F4             &kp F5          &kp F6    &kp F7      &kp F8    &kp F9      &kp F10     &kp F11       &kp F12               &kp DEL                &trans
-&trans             &trans            &kp UP            &trans             &trans          &trans            &trans      &trans    &trans      &trans      &trans        &trans                &trans   &trans                      &trans
-&trans                     &kp LEFT          &kp DOWN          &kp RIGHT          &trans          &trans    &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP          &trans                 &trans
-&trans                     &trans            &trans            &trans             &trans          &trans    &trans      &trans    &trans      &trans      &trans                      &trans           &kp C_VOL_UP  &trans
-&trans     &trans          &trans                              &trans                             &trans    &kp LG(D)                         &mo 2       &trans        &trans                &trans                 &kp C_VOL_DN  &trans
+&kp GRAVE       &kp F1                &kp F2                  &kp F3                  &kp F4             &kp F5          &kp F6    &kp F7      &kp F8    &kp F9      &kp F10     &kp F11       &kp F12               &kp DEL                &trans
+&bt BT_CLR_ALL          &bt BT_SEL 0            &bt BT_SEL 1            &bt BT_SEL 2             &trans          &trans            &trans      &trans    &trans      &trans      &trans        &trans                &trans   &trans                      &trans
+&trans                                &kp LEFT                &kp DOWN                &kp RIGHT          &trans          &trans    &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP          &trans                 &trans
+&trans                                &trans                  &trans                  &trans             &trans          &trans    &trans      &trans    &trans      &trans      &trans                      &trans           &kp C_VOL_UP  &trans
+&trans          &trans                &trans                                          &trans                             &trans    &kp LG(D)                         &mo 2       &trans        &trans                &trans                 &kp C_VOL_DN  &trans
             >;
         };
 
